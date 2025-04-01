@@ -75,6 +75,9 @@
     set par(leading: 0.4em) // Apply the same line spacing to footnotes
     it
   }
+
+  // Equation numbering
+  set math.equation(numbering: "(1)")
   
   // Cover page (Appendix 1)
   page(margin: (top: 8cm, rest: 3.5cm))[
